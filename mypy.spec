@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.550
-Release  : 1
+Release  : 2
 URL      : https://github.com/python/mypy/archive/v0.550.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.550.tar.gz
 Summary  : No detailed summary available
