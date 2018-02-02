@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.560
-Release  : 3
+Release  : 4
 URL      : https://github.com/python/mypy/archive/v0.560.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.560.tar.gz
 Summary  : No detailed summary available
