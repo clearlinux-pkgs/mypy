@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.600
-Release  : 8
+Release  : 9
 URL      : https://github.com/python/mypy/archive/v0.600.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.600.tar.gz
 Summary  : No detailed summary available
