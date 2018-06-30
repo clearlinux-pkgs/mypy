@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.610
-Release  : 12
+Release  : 13
 URL      : https://github.com/python/mypy/archive/v0.610.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.610.tar.gz
 Summary  : No detailed summary available
