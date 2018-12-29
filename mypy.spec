@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.650
-Release  : 21
+Release  : 22
 URL      : https://github.com/python/mypy/archive/v0.650.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.650.tar.gz
 Summary  : No detailed summary available
