@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.660
-Release  : 23
+Release  : 24
 URL      : https://github.com/python/mypy/archive/v0.660.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.660.tar.gz
 Summary  : Optional static typing for Python 2 and 3 (PEP484)
