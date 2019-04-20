@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.701
-Release  : 27
+Release  : 28
 URL      : https://github.com/python/mypy/archive/v0.701/mypy-0.701.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.701/mypy-0.701.tar.gz
 Summary  : Optional static typing for Python 2 and 3 (PEP484)
