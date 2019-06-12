@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.701
-Release  : 29
+Release  : 30
 URL      : https://github.com/python/mypy/archive/v0.701/mypy-0.701.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.701/mypy-0.701.tar.gz
 Summary  : No detailed summary available
@@ -24,6 +24,7 @@ BuildRequires : pytest
 BuildRequires : tox
 BuildRequires : typed_ast
 BuildRequires : virtualenv
+Patch1: support-new-typed-ast.patch
 
 %description
 <img src="http://mypy-lang.org/static/mypy_light.svg" alt="mypy logo" width="300px"/>
@@ -65,13 +66,14 @@ python3 components for the mypy package.
 
 %prep
 %setup -q -n mypy-0.701
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1560301553
+export SOURCE_DATE_EPOCH=1560303519
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
