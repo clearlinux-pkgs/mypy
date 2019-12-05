@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.750
-Release  : 33
+Release  : 34
 URL      : https://github.com/python/mypy/archive/v0.750/mypy-0.750.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.750/mypy-0.750.tar.gz
 Summary  : Optional static typing for Python 2 and 3 (PEP484)
