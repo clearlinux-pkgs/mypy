@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.761
-Release  : 38
+Release  : 39
 URL      : https://github.com/python/mypy/archive/v0.761/mypy-0.761.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.761/mypy-0.761.tar.gz
 Summary  : Optional static typing for Python 2 and 3 (PEP484)
@@ -28,7 +28,15 @@ BuildRequires : typing_extensions
 BuildRequires : virtualenv
 
 %description
-<img src="http://mypy-lang.org/static/mypy_light.svg" alt="mypy logo" width="300px"/>
+Mypy -- Optional Static Typing for Python
+=========================================
+
+Add type annotations to your Python programs, and use mypy to type
+check them.  Mypy is essentially a Python linter on steroids, and it
+can catch many programming errors by analyzing your program, without
+actually having to run it.  Mypy has a powerful type system with
+features such as type inference, gradual typing, generics and union
+types.
 
 %package bin
 Summary: bin components for the mypy package.
@@ -60,6 +68,7 @@ python components for the mypy package.
 Summary: python3 components for the mypy package.
 Group: Default
 Requires: python3-core
+Provides: pypi(mypy)
 
 %description python3
 python3 components for the mypy package.
@@ -74,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1577139129
+export SOURCE_DATE_EPOCH=1583185261
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
