@@ -1,6 +1,7 @@
 # This file contains recursive sources that require this package
 Cura
 ceph
+parso
 pcs
 pytest
 sphinxcontrib-applehelp
