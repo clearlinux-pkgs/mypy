@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.790
-Release  : 45
+Release  : 46
 URL      : https://github.com/python/mypy/archive/v0.790/mypy-0.790.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.790/mypy-0.790.tar.gz
 Summary  : Optional static typing for Python
