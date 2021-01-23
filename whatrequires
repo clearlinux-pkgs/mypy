@@ -4,7 +4,6 @@ ceph
 onnx
 parso
 pcs
-pytest
 sphinxcontrib-applehelp
 sphinxcontrib-devhelp
 sphinxcontrib-htmlhelp
