@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.810
-Release  : 52
+Release  : 53
 URL      : https://github.com/python/mypy/archive/v0.810/mypy-0.810.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.810/mypy-0.810.tar.gz
 Summary  : Optional static typing for Python
