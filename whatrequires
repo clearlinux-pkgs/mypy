@@ -1,9 +1,13 @@
 # This file contains recursive sources that require this package
 Cura
+SQLAlchemy
+asgiref
 ceph
+jedi
 onnx
 parso
 pcs
+responses
 sphinxcontrib-applehelp
 sphinxcontrib-devhelp
 sphinxcontrib-htmlhelp
