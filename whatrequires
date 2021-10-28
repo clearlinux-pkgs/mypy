@@ -2,8 +2,10 @@
 Cura
 SQLAlchemy
 asgiref
+bcrypt
 ceph
 jedi
+meson
 onnx
 parso
 pcs
