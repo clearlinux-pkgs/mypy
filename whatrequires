@@ -9,6 +9,7 @@ meson
 onnx
 parso
 pcs
+python-zstandard
 responses
 sphinxcontrib-applehelp
 sphinxcontrib-devhelp
