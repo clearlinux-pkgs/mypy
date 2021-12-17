@@ -1,15 +1,13 @@
 # This file contains recursive sources that require this package
-Cura
-SQLAlchemy
 asgiref
 bcrypt
 ceph
 jedi
-meson
 onnx
-parso
 pcs
 python-zstandard
+qt6base
+resolvelib
 responses
 sphinxcontrib-applehelp
 sphinxcontrib-devhelp
