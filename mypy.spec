@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.930
-Release  : 71
+Release  : 72
 URL      : https://github.com/python/mypy/archive/v0.930/mypy-0.930.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.930/mypy-0.930.tar.gz
 Summary  : Optional static typing for Python
@@ -14,7 +14,7 @@ Requires: mypy-bin = %{version}-%{release}
 Requires: mypy-license = %{version}-%{release}
 Requires: mypy-python = %{version}-%{release}
 Requires: mypy-python3 = %{version}-%{release}
-Requires: typed_ast
+Requires: pypi(typed_ast)
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(pluggy)
 BuildRequires : pypi(py)
@@ -87,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641603256
+export SOURCE_DATE_EPOCH=1641652290
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
