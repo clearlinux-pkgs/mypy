@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.930
-Release  : 70
+Release  : 71
 URL      : https://github.com/python/mypy/archive/v0.930/mypy-0.930.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.930/mypy-0.930.tar.gz
 Summary  : Optional static typing for Python
@@ -16,14 +16,14 @@ Requires: mypy-python = %{version}-%{release}
 Requires: mypy-python3 = %{version}-%{release}
 Requires: typed_ast
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
+BuildRequires : pypi(pluggy)
+BuildRequires : pypi(py)
+BuildRequires : pypi(pytest)
 BuildRequires : pypi(setuptools)
+BuildRequires : pypi(tox)
+BuildRequires : pypi(typed_ast)
+BuildRequires : pypi(virtualenv)
 BuildRequires : pypi(wheel)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : typed_ast
-BuildRequires : virtualenv
 
 %description
 <img src="http://mypy-lang.org/static/mypy_light.svg" alt="mypy logo" width="300px"/>
@@ -87,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640214819
+export SOURCE_DATE_EPOCH=1641603256
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

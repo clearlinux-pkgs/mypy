@@ -1,15 +1,1 @@
 # This file contains recursive sources that require this package
-asgiref
-bcrypt
-jedi
-onnx
-pcs
-python-zstandard
-qt6base
-resolvelib
-responses
-sphinxcontrib-applehelp
-sphinxcontrib-devhelp
-sphinxcontrib-htmlhelp
-sphinxcontrib-qthelp
-sphinxcontrib-serializinghtml
