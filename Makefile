@@ -1,5 +1,5 @@
 PKG_NAME := mypy
-URL = https://github.com/python/mypy/archive/v0.930/mypy-0.930.tar.gz
+URL = https://github.com/python/mypy/archive/v0.931/mypy-0.931.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
