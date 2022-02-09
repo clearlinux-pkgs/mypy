@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.931
-Release  : 73
+Release  : 74
 URL      : https://github.com/python/mypy/archive/v0.931/mypy-0.931.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.931/mypy-0.931.tar.gz
 Summary  : Optional static typing for Python
@@ -87,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641854587
+export SOURCE_DATE_EPOCH=1644441950
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
