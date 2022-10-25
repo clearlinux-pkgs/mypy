@@ -4,7 +4,7 @@
 #
 Name     : mypy
 Version  : 0.982
-Release  : 88
+Release  : 89
 URL      : https://github.com/python/mypy/archive/v0.982/mypy-0.982.tar.gz
 Source0  : https://github.com/python/mypy/archive/v0.982/mypy-0.982.tar.gz
 Summary  : Optional static typing for Python
@@ -98,7 +98,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1664828573
+export SOURCE_DATE_EPOCH=1666708914
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -152,30 +152,30 @@ popd
 
 %files dev
 %defattr(-,root,root,-)
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest-death-test.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest-message.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest-param-test.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest-printers.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest-spi.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest-test-part.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest-typed-test.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest_pred_impl.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/gtest_prod.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/custom/gtest-port.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/custom/gtest-printers.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/custom/gtest.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-death-test-internal.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-filepath.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-internal.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-linked_ptr.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-param-util-generated.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-param-util.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-port-arch.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-port.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-string.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-tuple.h
-/usr/lib/python3.10/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-type-util.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest-death-test.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest-message.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest-param-test.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest-printers.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest-spi.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest-test-part.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest-typed-test.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest_pred_impl.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/gtest_prod.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/custom/gtest-port.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/custom/gtest-printers.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/custom/gtest.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-death-test-internal.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-filepath.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-internal.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-linked_ptr.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-param-util-generated.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-param-util.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-port-arch.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-port.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-string.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-tuple.h
+/usr/lib/python3.11/site-packages/mypyc/external/googletest/include/gtest/internal/gtest-type-util.h
 
 %files license
 %defattr(0644,root,root,0755)
