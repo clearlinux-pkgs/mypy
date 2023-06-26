@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : mypy
-Version  : 1.4.0
-Release  : 97
-URL      : https://github.com/python/mypy/archive/v1.4.0/mypy-1.4.0.tar.gz
-Source0  : https://github.com/python/mypy/archive/v1.4.0/mypy-1.4.0.tar.gz
+Version  : 1.4.1
+Release  : 98
+URL      : https://github.com/python/mypy/archive/v1.4.1/mypy-1.4.1.tar.gz
+Source0  : https://github.com/python/mypy/archive/v1.4.1/mypy-1.4.1.tar.gz
 Summary  : Optional static typing for Python
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause
@@ -89,10 +89,10 @@ python3 components for the mypy package.
 
 
 %prep
-%setup -q -n mypy-1.4.0
-cd %{_builddir}/mypy-1.4.0
+%setup -q -n mypy-1.4.1
+cd %{_builddir}/mypy-1.4.1
 pushd ..
-cp -a mypy-1.4.0 buildavx2
+cp -a mypy-1.4.1 buildavx2
 popd
 
 %build
@@ -100,7 +100,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1687300517
+export SOURCE_DATE_EPOCH=1687794238
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
