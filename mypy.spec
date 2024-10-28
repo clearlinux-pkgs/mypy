@@ -7,7 +7,7 @@
 #
 Name     : mypy
 Version  : 1.13.0
-Release  : 118
+Release  : 119
 URL      : https://github.com/python/mypy/archive/v1.13.0/mypy-1.13.0.tar.gz
 Source0  : https://github.com/python/mypy/archive/v1.13.0/mypy-1.13.0.tar.gz
 Summary  : Optional static typing for Python
