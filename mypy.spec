@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : mypy
-Version  : 1.16.0
-Release  : 123
-URL      : https://github.com/python/mypy/archive/v1.16.0/mypy-1.16.0.tar.gz
-Source0  : https://github.com/python/mypy/archive/v1.16.0/mypy-1.16.0.tar.gz
+Version  : 1.17.0
+Release  : 124
+URL      : https://github.com/python/mypy/archive/v1.17.0/mypy-1.17.0.tar.gz
+Source0  : https://github.com/python/mypy/archive/v1.17.0/mypy-1.17.0.tar.gz
 Summary  : Optional static typing for Python
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause MIT
@@ -78,10 +78,10 @@ python3 components for the mypy package.
 
 
 %prep
-%setup -q -n mypy-1.16.0
-cd %{_builddir}/mypy-1.16.0
+%setup -q -n mypy-1.17.0
+cd %{_builddir}/mypy-1.17.0
 pushd ..
-cp -a mypy-1.16.0 buildavx2
+cp -a mypy-1.17.0 buildavx2
 popd
 
 %build
@@ -89,7 +89,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1748527920
+export SOURCE_DATE_EPOCH=1752581430
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
